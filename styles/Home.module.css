@@ -17,7 +17,8 @@ overflow: hidden;
   height: 100vh;
   object-fit: cover;
   /* color: transparent; */
-  width: 100%;
+  width: 170%;
+  object-position: 19% 10%;
 }
 .own_container{
   height: 100%;
@@ -25,14 +26,14 @@ overflow: hidden;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(40, 40, 40, 0.331);
-  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.331);
+ 
 }
 .header_container{
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.699);
-  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.331);
+
 }
 .own_p{
   color: #dfc5a8;

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Front from "../public/own.jpg"
+import Front from "../public/ow.jpg"
 import Logo from "../public/Logo.png"
 export default function Home() {
   return (
@@ -14,16 +14,16 @@ export default function Home() {
 
       <main className={styles.main } >
        <div className={styles.main_container}>
-        
-      
-    
-        <div className={styles.own_container}> 
-        <Image
+       <div className={styles.header_container}>
+       <Image
         src={Logo}
         alt="Picture of the author"
         width={200}
       />
-      <p className={styles.own_p}>@VekaWedding</p>
+    </div> 
+        <div className={styles.own_container}> 
+   
+     
     <div className={styles.block_button }>
       <button className={styles.c_button }>Site</button>
       <button className={styles.c_button }>Facebook</button>
