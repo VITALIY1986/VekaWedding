@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Front from "../public/Front.gif"
+import Front from "../public/own.jpg"
 import Logo from "../public/Logo.png"
 export default function Home() {
   return (
