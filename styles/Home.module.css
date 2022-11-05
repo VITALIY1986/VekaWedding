@@ -30,10 +30,12 @@ overflow: hidden;
  
 }
 .header_container{
+  padding: 5px;
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.331);
-
+border-bottom: 1px solid white;
+backdrop-filter: blur(8px);
 }
 .own_p{
   color: #dfc5a8;
@@ -46,15 +48,17 @@ border: none;
 backdrop-filter: blur(8px);
 background-color: rgba(255, 255, 255, 0.463);
 border-radius:100px ;
-padding: 0.5rem;
+padding: 0.75rem;
 }
 .block_button {
   justify-content: space-around;
   align-items: center;
   display: flex;
   flex-direction: column;
-width: 100%;
-padding: 3rem;
+width: 90%;
+padding: 1rem;
+margin: 1rem;
+
 }
 .footer {
   display: flex;
