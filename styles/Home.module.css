@@ -1,17 +1,30 @@
 .container {
-  padding: 0 2rem;
+ 
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ height: 100vh;
+ position: relative;
+overflow: hidden;
 }
+.main_container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #11111126;
 
+}
+.video_gif{
+  height: 100vh;
+  object-fit: cover;
+  /* color: transparent; */
+  width: 100%;
+}
+.decoration{
+
+}
 .footer {
   display: flex;
   flex: 1;
