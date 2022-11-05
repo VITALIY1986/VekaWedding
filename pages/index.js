@@ -14,15 +14,16 @@ export default function Home() {
 
       <main className={styles.main } >
        <div className={styles.main_container}>
-        <div className={styles.header_container}>
-       <Image
+        
+      
+    
+        <div className={styles.own_container}> 
+        <Image
         src={Logo}
         alt="Picture of the author"
         width={200}
       />
-      </div>
-        <div className={styles.own_container}> 
-    
+      <p className={styles.own_p}>@VekaWedding</p>
     <div className={styles.block_button }>
       <button className={styles.c_button }>Site</button>
       <button className={styles.c_button }>Facebook</button>
