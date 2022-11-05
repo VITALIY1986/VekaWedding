@@ -25,8 +25,14 @@ export default function Home() {
    
      
     <div className={styles.block_button }>
-      <button className={styles.c_button }>Site</button>
-      <button className={styles.c_button }>Facebook</button>
+      <div className={styles.vk_block }>
+        <p className={styles.vk_title }>@VekaWedding</p>
+        <p className={styles.vk_description }>wedding couture</p>
+        
+      </div>
+      <div className={styles.socials }></div>
+      <button className={styles.c_button }>Yotube about as</button>
+      <button className={styles.c_button }>vekawedding.com</button>
       <button className={styles.c_button } >Pinterest</button>
       <button className={styles.c_button }>Google maps</button>
     </div>
