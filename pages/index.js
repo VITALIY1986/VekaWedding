@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Front from "../public/Front.gif"
+import Logo from "../public/Logo.png"
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,7 +14,25 @@ export default function Home() {
 
       <main className={styles.main } >
        <div className={styles.main_container}>
-        <div className={styles.header_container}>LOgo</div>
+        <div className={styles.header_container}>
+       <Image
+        src={Logo}
+        alt="Picture of the author"
+        width={200}
+      />
+      </div>
+        <div className={styles.own_container}> 
+    
+    <div className={styles.block_button }>
+      <button className={styles.c_button }>Site</button>
+      <button className={styles.c_button }>Facebook</button>
+      <button className={styles.c_button } >Pinterest</button>
+      <button className={styles.c_button }>Google maps</button>
+    </div>
+    
+    
+    </div>
+    
        </div>
       <Image
 		className={styles.video_gif}
