@@ -1,5 +1,11 @@
 
-
+.video_background{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
 .main {
  height: 100vh;
  position: relative;
@@ -13,12 +19,19 @@ overflow: hidden;
   bottom: 0;
  
 }
+.favicon{
+position: absolute;
+left: 1px;
+}
 .video_gif{
   height: 100vh;
-  object-fit: cover;
+  object-fit: cover; 
+ /* width: 124%;
+  /*object-position: 414% 11%; */
   /* color: transparent; */
-  width: 170%;
-  object-position: 19% 10%;
+
+object-position: center;
+  
 }
 .own_container{
   height: 100%;
@@ -34,8 +47,7 @@ overflow: hidden;
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.331);
-border-bottom: 1px solid white;
-backdrop-filter: blur(8px);
+
 }
 .own_p{
   color: #dfc5a8;
@@ -47,8 +59,8 @@ margin-bottom: 1rem;
 border: none;
 backdrop-filter: blur(8px);
 background-color: rgba(255, 255, 255, 0.463);
-border-radius:100px ;
-padding: 0.75rem;
+border-radius:1000px ;
+
 }
 .block_button {
   justify-content: space-around;
@@ -58,6 +70,7 @@ padding: 0.75rem;
 width: 100%;
 padding: 1rem;
 margin: 1rem;
+position: relative;
 
 }
 .vk_block{
