@@ -28,6 +28,7 @@ export default function Home() {
         width={200}
       />
     </div> 
+    
         <div className={styles.own_container}> 
    
      
@@ -43,10 +44,10 @@ export default function Home() {
 		src={Favicon}
 		alt="Picture of the author"
 		width={42}
-	  /><p>Yotube about as</p></button>
-      <button className={styles.c_button }><p>vekawedding.com</p></button>
-      <button className={styles.c_button } ><p>Pinterest</p></button>
-      <button className={styles.c_button }><p>Google maps</p></button>
+	  /><p>vekawedding.com</p></button>
+      <button className={styles.c_button }><p>Facebook</p></button>
+      <button className={styles.c_button } ><p>Colecție nouă 2023</p></button>
+      <button className={styles.c_button }><p>Colecție 2022</p></button>
     </div>
     
     
