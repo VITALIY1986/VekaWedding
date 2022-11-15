@@ -47,7 +47,7 @@ export default function Home() {
 	  /><p>vekawedding.com</p></button>
       <button className={styles.c_button }><p>Facebook</p></button>
       <button className={styles.c_button } ><p>Colecție nouă 2023</p></button>
-      <button className={styles.c_button }><p>Colecție 2022</p></button>
+      <button className={styles.c_button }><p>Blog</p></button>
     </div>
     
     
