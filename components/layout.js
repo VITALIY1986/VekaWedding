@@ -1,8 +1,11 @@
 import Script from 'next/script'
-
+import Head from 'next/head'
 export default function Layout({ children }) {
   return (
     <>
+    <Head>
+        <title>sdfsdfsdf</title>
+    </Head>
           <Script strategy="lazyOnload">
     {`
    window.replainSettings = { id: '315457bd-ba97-4b76-bde2-83c365bb4708' };
