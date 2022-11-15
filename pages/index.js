@@ -1,12 +1,23 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import Link from 'next/link';
 import Logo from "../public/Logo.png"
 import Favicon from "../public/favicon.png"
+import Script from 'next/script'
 export default function Home() {
   return (
+    <>
+ 
     <div className={styles.container}>
+    <Script strategy="lazyOnload">
+    {`
+      window.replainSettings = { id: '75e15cf7-95cf-4900-a9f3-a31378d7ae6f' };
+      (function(u){var s=document.createElement('script');s.async=true;s.src=u;
+      var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+      })('https://widget.replain.cc/dist/client.js');
+    `}
+  </Script>
       <video autoPlay muted loop className={styles.video_background }
           src="/qq.mp4"
          controls={false}
@@ -68,5 +79,6 @@ export default function Home() {
        
     
     </div>
+    </>
   )
 }
