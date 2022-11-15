@@ -8,9 +8,7 @@ import Script from 'next/script'
 export default function Home() {
   return (
     <>
- 
-    <div className={styles.container}>
-    <Script strategy="lazyOnload">
+   <Script strategy="lazyOnload">
     {`
       window.replainSettings = { id: '75e15cf7-95cf-4900-a9f3-a31378d7ae6f' };
       (function(u){var s=document.createElement('script');s.async=true;s.src=u;
@@ -18,6 +16,8 @@ export default function Home() {
       })('https://widget.replain.cc/dist/client.js');
     `}
   </Script>
+    <div className={styles.container}>
+  
       <video autoPlay muted loop className={styles.video_background }
           src="/qq.mp4"
          controls={false}
