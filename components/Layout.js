@@ -8,9 +8,12 @@ const Layout = (props) => {
  <>
     <Head>
     <title>{props.title}</title>
+   
  
   </Head>
-  <Script strategy="lazyOnload">
+  
+        <div className="wrapper">
+        <Script strategy="lazyOnload">
     {`
    window.replainSettings = { id: '315457bd-ba97-4b76-bde2-83c365bb4708' };
   (function(u){var s=document.createElement('script');s.async=true;s.src=u;
@@ -18,8 +21,6 @@ const Layout = (props) => {
   })('https://widget.replain.cc/dist/client.js');
     `}
   </Script>
-        <div className="wrapper">
-        
        
         
           {props.children}
