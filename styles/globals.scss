@@ -84,7 +84,8 @@ label.hamburger {
 
 
 .drawer-list {
-  background: #161616;;
+  backdrop-filter: blur(20px);
+  background: #000000d1;
   z-index: 100;
   position: fixed;
   right: 0;
