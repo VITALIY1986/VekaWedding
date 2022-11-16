@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
+
 import Link from 'next/link';
 import Logo from "../public/Logo.png"
 import Favicon from "../public/favicon.png"
@@ -20,6 +21,23 @@ export default function Home() {
       
         />
      
+
+<div className='burger'>
+     <input id="hamburger" className="hamburger" type="checkbox"/>
+				<label className=" hamburger" for="hamburger">
+		  	
+		
+		</label>
+		<section className="drawer-list bg-very_peri  ">
+		<ul className="text-center mt-30 uppercase">
+		<li className='mx-5 mt-10'><a href="/">Acasa</a></li>
+			<li className='mx-5 mt-10'><a href="/categories">produse</a></li>
+			<li className='mx-5 mt-10'><a href="/contact">Contact</a></li>
+			
+		</ul>
+			</section>
+
+      </div>
 
       <main className={styles.main } >
        <div className={styles.main_container}>
@@ -48,7 +66,7 @@ export default function Home() {
 		width={42}
 	  /><p>vekawedding.com</p></button>
       <button className={styles.c_button }> <div className={styles.marquees } ><span className={styles.marquee }>&#128150; Modele de modă de rochii de mireasă în 2023. 	&#128141; </span></div></button>
-      <button className={styles.c_button } ><p>Colecție nouă 2023</p></button>
+      <button className={styles.c_button } ><p>Informatii pentru parteneri</p></button>
       <button className={styles.c_button }><p>Blog</p></button>
      
     </div>
