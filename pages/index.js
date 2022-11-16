@@ -47,9 +47,10 @@ export default function Home() {
 		alt="Picture of the author"
 		width={42}
 	  /><p>vekawedding.com</p></button>
-      <button className={styles.c_button }><p>Facebook</p></button>
+      <button className={styles.c_button }> <div className={styles.marquees } ><span className={styles.marquee }>&#128150; Modele de modă de rochii de mireasă în 2023. 	&#128141; </span></div></button>
       <button className={styles.c_button } ><p>Colecție nouă 2023</p></button>
       <button className={styles.c_button }><p>Blog</p></button>
+     
     </div>
     
     
