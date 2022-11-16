@@ -24,6 +24,38 @@ a {
     background: black;
   }
 }
+.abot-us{
+
+  display: flex;
+  flex-wrap: wrap;
+color: wheat;
+padding: 0;
+}
+.grid-about-us{
+  width: 100%;
+  margin: 0px 20px;
+}
+.grid-about-us h1{
+  font-weight: 100;
+}
+.grid-about-us h1 span {
+  font-size: 97px;
+}
+.grid-about-us p{
+  font-weight: 100;
+}
+
+
+@media (min-width: 600px) {
+  .grid-about-us{
+    width: 40%;
+    margin: 0px 10px;
+  }
+}
+
+
+
+
 
 .burger{
   top: 6%;

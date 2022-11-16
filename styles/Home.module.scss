@@ -7,7 +7,8 @@
 }
 
 .marquee  {
-  
+  font-family: system-ui;
+    font-weight: 100;
  color: #ffffff;
  
  display:inline-block;
@@ -84,6 +85,8 @@ object-position: center;
 }
 .c_button{
  color: #ffffff;
+ font-family: system-ui;
+    font-weight: 100;
 width: 100%;
 margin-bottom: 1rem;
 border: none;
