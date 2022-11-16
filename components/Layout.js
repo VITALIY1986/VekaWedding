@@ -50,7 +50,7 @@ const Layout = (props) => {
         <div className="wrapper">
         <Script strategy="lazyOnload">
     {`
-   window.replainSettings = { id: '315457bd-ba97-4b76-bde2-83c365bb4708' };
+  window.replainSettings = { id: '75e15cf7-95cf-4900-a9f3-a31378d7ae6f' };
   (function(u){var s=document.createElement('script');s.async=true;s.src=u;
   var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
   })('https://widget.replain.cc/dist/client.js');
