@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
+import Link from 'next/link'
 
-import Link from 'next/link';
 import Logo from "../public/Logo.png"
 import Favicon from "../public/favicon.png"
 import About from "../public/about-as.jpg"
@@ -73,15 +73,15 @@ export default function Home() {
         
       </div>
       <div className={styles.socials }></div>
-      <button className={styles.c_button }> <Image
+     <button className={styles.c_button }>  <Link href="https://vekawedding.com/en/"><Image
 	className={styles.favicon}
 		src={Favicon}
 		alt="Picture of the author"
 		width={42}
-	  /><p>vekawedding.com</p></button>
-      <button className={styles.c_button }> <div className={styles.marquees } ><span className={styles.marquee }>	&#128141; Wedding dress fashion models in 2023. 	&#128141; </span></div></button>
-      <button className={styles.c_button } ><p>Information for partners</p></button>
-      <button className={styles.c_button }><p>Blog</p></button>
+	  /><p>vekawedding.com</p></Link></button> 
+      <button className={styles.c_button }><Link href="https://vekawedding.com/en/wedding-dresses/collection-2021"> <div className={styles.marquees } ><span className={styles.marquee }>	&#128141; Wedding dress fashion models in 2023. 	&#128141; </span></div></Link></button>
+      <button className={styles.c_button } ><Link href="https://vekawedding.com/en/contacts"><p>Information for partners</p></Link></button>
+      <button className={styles.c_button }><Link href="/"><p>Blog</p></Link></button>
      
     </div>
     
