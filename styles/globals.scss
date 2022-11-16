@@ -94,7 +94,7 @@ label.hamburger {
 
 .drawer-list {
  
-  background: #ffffffd1;
+  background: #151515;
   z-index: 100;
   position: fixed;
   right: 0;
@@ -111,7 +111,7 @@ label.hamburger {
   border-bottom-left-radius: 100vw;
  /* @include alpha-attribute('background-color', rgba($contrast, 1), white);*/
   @media (min-width: 768px) {
-    width: 40vw;
+    width: 100vw;
   }
    /*ul {
     height: 100%;
