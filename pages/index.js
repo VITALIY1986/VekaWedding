@@ -5,11 +5,11 @@ import Link from 'next/link';
 import Logo from "../public/Logo.png"
 import Favicon from "../public/favicon.png"
 import Script from 'next/script'
-
+import Layout from '../components/Layout.js'
 export default function Home() {
   
   return (
-<>
+<Layout>
     <Script strategy="lazyOnload">
     {`
    window.replainSettings = { id: '315457bd-ba97-4b76-bde2-83c365bb4708' };
@@ -77,6 +77,6 @@ export default function Home() {
          
     
     </div>
-    </>
+    </Layout>
   )
 }
