@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Logo from "../public/Logo.png"
 import Favicon from "../public/favicon.png"
 import About from "../public/about-as.jpg"
+import Background_full from "../public/bak.jpg"
 import Layout from '../components/Layout.js'
 export default function Home() {
   
@@ -14,13 +15,14 @@ export default function Home() {
    
     <div className={styles.container}>
   
-      <video autoPlay muted loop className={styles.video_background }
+      <video autoPlay muted loop className='video_content_mobile'
           src="/qq.mp4"
          controls={false}
           width='100%'
       
         />
      
+    
 
 <div className='burger'>
      <input id="hamburger" className="hamburger" type="checkbox"/>
@@ -31,7 +33,7 @@ export default function Home() {
 		</label>
 		<section className="drawer-list bg-very_peri  ">
 		<div className="abot-us ">
-      <div className='grid-about-us'>
+      <div className='grid-about-us first'>
     
     <Image
         src={About}
@@ -78,7 +80,7 @@ export default function Home() {
 		width={42}
 	  /><p>vekawedding.com</p></button>
       <button className={styles.c_button }> <div className={styles.marquees } ><span className={styles.marquee }>	&#128141; Wedding dress fashion models in 2023. 	&#128141; </span></div></button>
-      <button className={styles.c_button } ><p>Informatii pentru parteneri</p></button>
+      <button className={styles.c_button } ><p>Information for partners</p></button>
       <button className={styles.c_button }><p>Blog</p></button>
      
     </div>

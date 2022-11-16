@@ -8,7 +8,7 @@
 
 .marquee  {
   font-family: system-ui;
-    font-weight: 100;
+    font-weight: 500;
  color: #ffffff;
  
  display:inline-block;
@@ -25,13 +25,7 @@
  0%{transform: translate(0, 0);}
  100%{transform: translate(-100%, 0)}
  }
-.video_background{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
+
 .main {
  height: 100vh;
  position: relative;
@@ -86,7 +80,7 @@ object-position: center;
 .c_button{
  color: #ffffff;
  font-family: system-ui;
-    font-weight: 100;
+    font-weight: 500;
 width: 100%;
 margin-bottom: 1rem;
 border: none;
@@ -97,6 +91,7 @@ display: flex;
     justify-content: center;
     box-shadow: 2px 0px 5px 0px #0000006e;
 }
+
 .block_button {
   justify-content: space-around;
   align-items: center;
