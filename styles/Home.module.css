@@ -92,6 +92,7 @@ background-color: rgba(255, 255, 255, 0.463);
 border-radius:1000px ;
 display: flex;
     justify-content: center;
+    box-shadow: 2px 0px 5px 0px #0000006e;
 }
 .block_button {
   justify-content: space-around;
