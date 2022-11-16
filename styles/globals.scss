@@ -70,13 +70,22 @@ input.hamburger {
 label.hamburger {
   z-index: 9999;
   position: relative;
-  display: block;
+  align-items: center;
+    justify-content: center;
+    display: flex;
   height: 50px;
   width: 50px;
   border-radius: 100%;
   background: white;
  
   }
+  .dot {
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 100%;
+    margin: 2px;
+}
  
 
 

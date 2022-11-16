@@ -25,8 +25,9 @@ export default function Home() {
 <div className='burger'>
      <input id="hamburger" className="hamburger" type="checkbox"/>
 				<label className=" hamburger" for="hamburger">
-		  	
-		
+		  	<div className='dot'></div>
+        <div className='dot'></div>
+        <div className='dot'></div>
 		</label>
 		<section className="drawer-list bg-very_peri  ">
 		<ul className="text-center mt-30 uppercase">
