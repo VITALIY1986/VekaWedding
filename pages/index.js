@@ -13,12 +13,7 @@ export default function Home() {
    
     <div className={styles.container}>
   
-      <video autoPlay muted loop className={styles.video_background }
-          src="/qq.mp4"
-         controls={false}
-          width='100%'
-      
-        />
+     
      
 
       <main className={styles.main } >
