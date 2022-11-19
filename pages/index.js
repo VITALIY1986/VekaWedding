@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Link from 'next/link'
-
+import Bg from "../public/11.jpg"
 import Logo from "../public/Logo.png"
 import Favicon from "../public/favicon.png"
 import About from "../public/about-as.jpg"
@@ -15,14 +15,14 @@ export default function Home() {
    
     <div className={styles.container}>
   
-      <video autoPlay muted loop className='video_content_mobile'
+      {/*<video autoPlay muted loop className='video_content_mobile'
           src="/qq.mp4"
          controls={false}
           width='100%'
       
-        />
+  />*/}
      
-    
+  
 
 <div className='burger'>
      <input id="hamburger" className="hamburger" type="checkbox"/>
@@ -32,6 +32,7 @@ export default function Home() {
         <div className='dot'></div>
 		</label>
 		<section className="drawer-list bg-very_peri  ">
+      
 		<div className="abot-us ">
       <div className='grid-about-us first'>
     
@@ -52,8 +53,14 @@ export default function Home() {
 			</section>
 
       </div>
-
+  
       <main className={styles.main } >
+      <Image
+    className='bg_pc'
+    src={Bg}
+    alt="Picture of the author"
+       
+      />
        <div className={styles.main_container}>
        <div className={styles.header_container}>
        <Image

@@ -55,8 +55,20 @@ padding: 0;
   min-width: 100%; 
   min-height: 100%;
 }
-
+img.bg_pc{
+  object-position: -14rem 0rem;
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
 @media (min-width: 600px) {
+  img.bg_pc{
+    display: block;
+    object-position: center;
+  }
   .grid-about-us{
     width: 40%;
     margin: 0px 10px;
