@@ -66,7 +66,7 @@ export default function Home() {
        <Image
         src={Logo}
         alt="Picture of the author"
-        width={250}
+        width={300}
       />
     </div> 
     
