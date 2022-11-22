@@ -103,6 +103,14 @@ margin: 1rem;
 position: relative;
 
 }
+@media (min-width: 600px) {
+  .block_button {
+   
+  width: 50%;
+ 
+  
+  }
+}
 .vk_block{
   color: #eaeaea;
   margin-bottom: 2rem;
